@@ -27,7 +27,7 @@ class MovieList extends Component{
     }
 
     async getMovies(title){
-        let res = await axios.get(`http://www.omdbapi.com/?S=${title}&apikey=79dfb4ab`)
+        let res = await axios.get(`https://www.omdbapi.com/?S=${title}&apikey=79dfb4ab`)
         let list = res.data.Search;
         this.setState({movies:list})
     }
