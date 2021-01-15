@@ -1,0 +1,12 @@
+.MovieListing{
+    padding: 5%;
+}
+.SearchText{
+    text-align: top;
+}
+body{
+    background-color: black;
+}
+text{
+    color: red;
+}
