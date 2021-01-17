@@ -9,3 +9,5 @@ nomination list will be saved even if you navigate away from the page.
 ## DEVELOPMENT
 I started the app with a rough outline of the UI, while focusing on the technical requirements. I used React to create the app, using Bootstrap for styling,
 and finally implemented local storage in order to save the "nominated movies" list. 
+
+<img src="./docs/images/movie_buddy.PNG">
