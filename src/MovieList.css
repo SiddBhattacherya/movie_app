@@ -1,6 +1,10 @@
-.MovieListing{
-    padding: 5%;
-}
+
 .SearchText{
-    text-align: top;
+    text-align: center;
+    
+       
+}
+
+.NominationText{
+    text-align: center;
 }
