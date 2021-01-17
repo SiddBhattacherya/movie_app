@@ -25,7 +25,10 @@ class MovieList extends Component{
    
     async componentDidMount(){
      let movie_list = JSON.parse(localStorage.getItem('nominatedMovies'))
-     this.setState({nominatedMovies: movie_list})
+     if(movie_list != null){
+        this.setState({nominatedMovies: movie_list})
+     }
+     
      console.log(localStorage.getItem('nominatedMovies'))
     }
 
