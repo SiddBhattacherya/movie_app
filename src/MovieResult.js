@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import MovieList,{noimateMovie, nominateMovie} from './MovieList';
 import axios from 'axios';
-import SearchField from 'react-search-field';
 import {Alert, Button, Badge, Form, FormGroup, Label, Input, FormText,   Card, CardText, CardBody, CardLink,
     CardTitle, CardSubtitle, Container, Jumbotron, JumbotronProps, Col, Row } from 'reactstrap';
 
